@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-container {
+    border-right: 2px solid brown;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    padding-left: 4em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    height: 84vh;
+    background-color: rgb(253,153 , 147);
+}
+
+textarea {
+    vertical-align: top;
+    width: 300px;
+    height: 100px;
+}
+
+button {
+    margin-top: 3em;
+    width: 8em;
+    height: 4em;
+}
+
+input:focus {
+    border-color: #000;
+}
+
+label {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.book-container {
+    height: 88vh;
+}
+
+h3 {
+    text-align: center;
+}
+
+.book-container ul li button {
+    width: 60px;
+    height: 30px;
+    margin-left: 30px;
+}
